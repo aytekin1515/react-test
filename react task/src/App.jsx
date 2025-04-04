@@ -139,6 +139,7 @@ function App() {
     
     console.log(newIsci)
     setAddArr([...addArr,newIsci])
+    setFilteredList([...addArr,newIsci])
     setAddIsciName('')
     setAddIsciSurname('')
     setAddIsciPrice('')
@@ -328,7 +329,7 @@ function App() {
       </div>
 
       
-      <div className='bg-white w-[600px] shadow-lg rounded-lg w-72 h-auto border border-gray-200 overflow-hidden transition-transform hover:scale-105'>
+      <div className='bg-white w-[600px] shadow-lg rounded-lg  h-auto border border-gray-200 overflow-hidden transition-transform hover:scale-105'>
   <div className='bg-teal-600 text-white py-3 px-4'>
     <h1 className='font-bold text-xl text-center'>Task 7</h1>
   </div>
